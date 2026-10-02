@@ -1,0 +1,159 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(0, 0, 20);
+    color:rgb(203, 190, 190);
+    font-family: "Clarity City", sans-serif;
+}
+
+nav{
+    height: 80px;
+    background-color:rgb(5, 5, 50);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%
+}
+.intro{
+    font-size: 30px;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    list-style: none;
+}
+ul li{
+    margin-right: 45px;
+}
+ul li a{
+    text-decoration:none;
+    color:white;
+}
+ul li a:hover{
+    color:rgb(223, 100, 170);
+}
+#content1{
+    margin: 120px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center
+}
+.leftcontent1{
+    
+    font-size: 40px;
+    margin:35px 35px 35px 50px;
+    }
+.rightcontent1 img{
+    width:700px;
+    height:400px;
+    margin-top:50px;
+    margin-right:50px ;
+}
+.cont{
+    margin:100px 100px 0px 150px;
+    font-size: 70px;
+}
+
+.color1{
+    color:rgb(159, 37, 122);
+}
+.size1{
+    font-size:30px;
+    margin-top:30px;
+}
+#content2{
+    margin:100px 100px 50px 180px;
+    display: flex;
+    margin-bottom:50px;
+    width:50px
+}
+.leftcontent2{
+    display:flex;
+    width:50%;
+}
+.color2{
+    font-size:60px;
+}
+.skilled{
+    display:flex;
+    flex-direction:column;
+}
+.skilldata{
+    height:200px;
+    width:600px;
+    margin:30px;
+    
+}
+.skilldata p{
+    font-size:25px;
+}
+.rightcontent2 img{
+    margin-left: 1000px;
+    height:500px;
+}
+
+.color2{
+    color:rgba(36, 160, 160, 0.912)
+}
+.cont1{
+    margin:100px 100px 0px 180px;
+    font-size:70px;
+}
+#content3{
+    width:50px;
+    margin:100px 100px 0px 180px;
+    display:flex;
+}
+.leftcontent3{
+    display:flex;
+    width:40%;
+    flex-direction: column;
+}
+.proj1{
+    height:200px;
+    width:700px;
+}
+
+.color3 {
+    color:rgb(27, 181, 14);
+    font-size: 60px;
+}
+.proj1 p{
+    font-size: 25px;
+}
+.rightcontent3 img{
+    width:500px;
+    height:500px;
+    margin-left:1000px;
+    margin-bottom: 200px;
+}
+.image2{
+    margin-top:100px;
+}
+.path h2{
+    font-size:70px;
+}
+#end{
+    margin:100px 100px 50px 180px;
+}
+.details ul{
+    display:flex;
+    flex-direction: column;
+}
+.details ul li{
+    margin:30px;
+    font-size: 30px;
+}
+.color4{
+    color:rgb(138, 54, 54);
+}
+.rights p{
+    color:rgb(110, 100, 100);
+    text-align:center;
+    font-size:30px;
+}
